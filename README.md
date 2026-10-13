@@ -123,7 +123,8 @@ sqlmap identified and exploited the same injection point using an **error-based 
 Both manual and automated SQLi were independently detected — manual auth bypass and UNION dump matched rule `100500`, and sqlmap's run triggered both `100500` (payload regex, once adjusted) and `100504` (User-Agent fingerprint), confirming two independent detection layers on the same attack.
 
 ![SQLi detection firing in Wazuh Security Events](screenshots/sqlmap-detection.png)
-*Replace with your own screenshot — see "Adding Your Own Evidence" below.*
+<img width="1456" height="819" alt="image" src="https://github.com/user-attachments/assets/8a8e3351-a38e-4bd7-847b-e9d87f2198eb" />
+
 
 ## Troubleshooting Log (Real Debugging, Not Just a Happy Path)
 
